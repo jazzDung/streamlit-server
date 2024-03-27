@@ -1,4 +1,4 @@
-envs/*
+.venv
 __pycache__/
 *.db
 .coverage
