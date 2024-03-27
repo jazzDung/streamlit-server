@@ -1,0 +1,91 @@
+/*html, body, [class*="css"] {*/
+/*    font-family: '-apple-system', BlinkMacSystemFont, sans-serif;;*/
+
+*
+{
+  font-family: Roboto, sans-serif;
+}
+
+:root {
+  --background: linear-gradient(180deg, rgba(255,233,243,1) 0%, rgba(239,245,246,1) 100%);
+}
+
+p {
+  font-size: 15px;
+}
+
+.main{
+  background: var(--background);
+}
+
+/*Page top and bottom gap*/
+.st-emotion-cache-z5fcl4 {
+  margin: -50px 0 -100px 0;
+}
+
+.st-emotion-cache-10trblm {
+  font-size: 25px;
+}
+
+.st-emotion-cache-1wmy9hl{
+  margin: 0 -8px 0 -8px;
+}
+
+.st-emotion-cache-18ni7ap{
+  background: rgba(255,233,243,1);
+}
+
+.st-emotion-cache-6qob1r {
+  background: var(--background);
+}
+
+.stSlider{
+  padding: 0 5px 0 5px;
+}
+
+
+.js-plotly-plot{
+  /*border-radius: 20px;*/
+  /*margin: 20px;*/
+  /*border: 2px solid rgb(128, 128, 128);*/
+  /*background-color: rgb(23, 26, 39);*/
+  /*box-shadow: 2px 2px;*/
+}
+
+/*.column{*/
+/*  -webkit-border-radius: 50px;*/
+/*  border-radius: 40px;*/
+/*  background: #e4e7f0;*/
+/*  -webkit-box-shadow: 12px 12px 24px #c2c4cc, -12px -12px 24px #ffffff;*/
+/*  box-shadow: 12px 12px 24px #c2c4cc, -12px -12px 24px #ffffff;*/
+/*  padding: 20px;*/
+/*  !*border: 2px solid rgb(128, 128, 128);*!*/
+/*  !*box-shadow: 2px 2px;*!*/
+/*}*/
+
+.st-emotion-cache-1wmy9hl{
+  /*margin: 10px 10px 10px 10px;*/
+  /*border: 2px solid rgb(128, 128, 128);*/
+  /*box-shadow: 2px 2px;*/
+}
+
+.st-emotion-cache-1msb0ab{
+  /*-webkit-border-radius: 50px;*/
+  /*border-radius: 30px;*/
+  /*background: #e4e7f0;*/
+  /*-webkit-box-shadow: 12px 12px 24px #c2c4cc, -12px -12px 24px #ffffff;*/
+  /*box-shadow: 12px 12px 24px #c2c4cc, -12px -12px 24px #ffffff;*/
+  /*padding: 20px;*/
+  /*margin: 10px 0 10px 0;*/
+  /*border: 2px solid rgb(128, 128, 128);*/
+  /*box-shadow: 2px 2px;*/
+}
+
+
+/*.stPlotlyChart{*/
+/*  border: 10px solid red;*/
+/*}*/
+
+/*div.plot-container{*/
+/*  border: 10px solid red;*/
+/*}*/

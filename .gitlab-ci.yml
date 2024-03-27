@@ -1,0 +1,24 @@
+variables:
+  KANIKO_CACHE_ARGS: "--cache=true --cache-copy-layers=true"
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+stages:
+  - build-docker-streamlit-server
+
+build-docker-streamlit-server:
+  image:
+    name: registry.entrade.com.vn/public/kaniko-project/executor:v1.7.0-debug
+    entrypoint: [ "" ]
+  stage: build-docker-streamlit-server
+  only:
+    refs:
+      - branches
+      - tags
+  when: manual
+  variables:
+    REGISTRY_IMAGE: $PRIVATE_REGISTRY/streamlit-server
+  script:
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"$PRIVATE_REGISTRY_HOST\":{\"username\":\"$PRIVATE_REGISTRY_USER\",\"password\":\"$PRIVATE_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - if [ "$CI_COMMIT_REF_NAME" = "$CI_COMMIT_TAG" ]; then TAG="$CI_COMMIT_TAG"; else TAG="$CI_COMMIT_SHA"; fi
+    - /kaniko/executor $KANIKO_CACHE_ARGS --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $REGISTRY_IMAGE:${TAG}

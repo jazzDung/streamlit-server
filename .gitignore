@@ -1,0 +1,7 @@
+envs/*
+__pycache__/
+*.db
+.coverage
+.DS_Store
+.idea/
+

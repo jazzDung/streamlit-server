@@ -1,0 +1,88 @@
+/*html, body, [class*="css"] {*/
+/*    font-family: '-apple-system', BlinkMacSystemFont, sans-serif;;*/
+/*}*/
+
+*
+{
+  font-family: Roboto, sans-serif;
+}
+
+:root {
+  --background: linear-gradient(180deg, rgba(255,233,243,1) 0%, rgba(239,245,246,1) 100%);
+}
+
+p {
+  font-size: 15px;
+}
+
+.main{
+  background: var(--background);
+}
+
+.stRadio [role=radiogroup] {
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*Page top and bottom gap*/
+.st-emotion-cache-z5fcl4 {
+  margin: -50px 0 -100px 0;
+}
+
+/*Title and value same line*/
+.st-emotion-cache-5rimss {
+  margin: -10px 0 -15px 0;
+}
+
+/*Chart title*/
+.st-emotion-cache-10trblm {
+  font-size: 20px;
+}
+
+/*Hide slider min max value*/
+.st-emotion-cache-1dx1gwv {
+  display: none;
+}
+
+.st-emotion-cache-18ni7ap{
+  background: rgba(255,233,243,1);
+}
+
+.st-emotion-cache-6qob1r {
+  background: var(--background);
+}
+/*.block-container {*/
+/*    padding-top: 1rem;*/
+/*    padding-bottom: 0rem;*/
+/*    padding-left: 5rem;*/
+/*    padding-right: 5rem;*/
+/*}*/
+
+/*plotly chart*/
+.js-plotly-plot{
+  padding: 7px;
+  margin: -5px -5px -25px -5px;
+}
+
+/*.st-emotion-cache-1wmy9hl{*/
+/*  margin: 10px 10px 10px 10px;*/
+/*  !*border: 2px solid rgb(128, 128, 128);*!*/
+/*  !*box-shadow: 2px 2px;*!*/
+/*}*/
+
+.st-emotion-cache-1msb0ab{
+  padding: -10px;
+  margin: 10px -10px 10px 0;
+  /*border: 2px solid rgb(128, 128, 128);*/
+  /*box-shadow: 2px 2px;*/
+}
+
+
+/*.stPlotlyChart{*/
+/*  border: 10px solid red;*/
+/*}*/
+
+/*div.plot-container{*/
+/*  border: 10px solid red;*/
+/*}*/

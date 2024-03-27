@@ -1,0 +1,54 @@
+/*html, body, [class*="css"] {*/
+/*    font-family: '-apple-system', BlinkMacSystemFont, sans-serif;;*/
+/*}*/
+
+/** {*/
+/*  color: #FAFAFA*/
+/*}*/
+
+p {
+  font-size: 20px;
+}
+
+.main{
+  background: #1d2642;
+}
+
+.st-emotion-cache-18ni7ap {
+  background: #1d2642;
+}
+
+.js-plotly-plot {
+  /*border-radius: 20px;*/
+  /*margin: 20px;*/
+  /*border: 2px solid rgb(128, 128, 128);*/
+  /*background-color: rgb(23, 26, 39);*/
+  /*box-shadow: 2px 2px;*/
+}
+
+.st-emotion-cache-1wmy9hl{
+  margin: 10px 10px 10px 10px;
+  /*border: 2px solid rgb(128, 128, 128);*/
+  /*box-shadow: 2px 2px;*/
+}
+
+.st-emotion-cache-1msb0ab{
+  -webkit-border-radius: 50px;
+  border-radius: 30px;
+  background: #1d2642;
+  -webkit-box-shadow: 12px 12px 24px #192038, -12px -12px 24px #212c4c;
+  box-shadow: 12px 12px 24px #192038, -12px -12px 24px #212c4c;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+  /*border: 2px solid rgb(128, 128, 128);*/
+  /*box-shadow: 2px 2px;*/
+}
+
+
+/*.stPlotlyChart{*/
+/*  border: 10px solid red;*/
+/*}*/
+
+/*div.plot-container{*/
+/*  border: 10px solid red;*/
+/*}*/
